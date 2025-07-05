@@ -1,7 +1,7 @@
 import csv
 
-input_file = 'd:\\Repository\\Inventarium_scripts\\import_records\\Inventarium_import.csv'
-output_file = 'd:\\Repository\\Inventarium_scripts\\import_records\\insert_records.sql'
+input_file = 'Inventarium_import.csv'
+output_file = 'insert_records.sql'
 
 # Поля, які мають бути числовими (без лапок)
 numeric_fields = {'latitude', 'longitude', 'inventory_year','mark_type'}
